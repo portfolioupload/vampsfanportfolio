@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>Albums & Covers</title>
+<style>
+body{
+background:url(backgroundimg.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+.main{
+background:#FFF6ED;
+margin:70px;
+padding:60px;
+border-radius:30px;
+}
+
+.main header {
+margin-top:-20px;
+margin-bottom:40px;
+background:#CDAA82;
+padding:20px;
+border-radius:30px 30px 0px 0px;
+}
+
+.main header nav ul{
+margin-bottom:10px;
+padding:30px;
+}
+
+.main header nav ul li{
+list-style:none;
+float:left; 
+width:25%;
+text-align:center;
+
+}
+
+.main header nav ul li a{
+text-decoration:none;
+color:#000000;
+}
+
+.main header nav ul li a:hover{
+text-decoration:underline;
+color:#FFF6ED;
+}
+.main header nav ul li #active{
+text-decoration:underline;
+color:#FFF6ED;
+}
+
+
+.logopicture #listen{
+width:350px;
+float:right;
+margin-right:150px;
+}
+
+.logopicture #listenhead {
+transform:translate(330px,10px);
+position:absolute;
+color:black;
+padding:10px 30px;
+background:#CDAA82;
+text-decoration:none;
+}
+
+.logopicture #listenhead:hover{
+background:#FFF6ED;
+text-decoration:underline;
+}
+
+.albums{
+display:flex;
+}
+
+.albums div{
+flex-basis:30%;
+justify-content:center;
+align-content:center;
+margin-left:50px;
+margin-top:100px;
+border-top:1px black dotted;
+border-bottom:1px black dotted;
+}
+
+.albums #a1 li{
+list-style-image:url('album1.jpg');
+}
+.albums #a2 li{
+list-style-image:url('album2.jpg');
+}
+.albums #a3 li{
+list-style-image:url('album3.jpg');
+}
+.albums #a4 li{
+list-style-image:url('album4.jpg');
+}
+.albums #a5 li{
+list-style-image:url('album5.jpg');
+}
+
+.albums ul li {
+list-style:none;
+}
+.albums ul li a{
+text-decoration:none;
+color:#CDAA82;
+}
+
+footer {
+background:#CDAA82;
+padding:50px;
+margin:50px -60px -60px -60px;
+}
+
+@media screen and (max-width:1000px){
+.main header nav ul li{
+float:none;
+text-align:center;
+}
+.logopicture #logop{
+width:90%;
+}
+.logopicture{
+text-align:center;
+}
+
+.logopicture #listen{
+width:90%;
+margin-right:10%;
+margin-top:70px;
+}
+
+.logopicture #listenhead{
+transform:translate(-200px,150px)
+}
+.albums{
+margin-top:90px;
+display:block;
+}
+
+.albums div{
+flex-basis:70%;
+}
+
+
+
+
+}
+
+</style>
+</head>
+<body>
+<div class="main">
+<header>
+<nav>
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a id="active" href="album.html">ALBUMS & COVERS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="logopicture">
+<img id="logop" src="logo.jpg" alt="logo of THE VAMPS">
+<a href="https://open.spotify.com/artist/7gAppWoH7pcYmphCVTXkzs" ><img id="listen" src="template.jpg" alt="SPOTIFY TEMPLATE"></a>
+<a id="listenhead" href="https://open.spotify.com/artist/7gAppWoH7pcYmphCVTXkzs"><h3><i>LISTEN NOW</i><h3></a><br>
+</div>
+
+<div class="albums">
+<div id="alb1">
+<ul id="a1">
+<h4>MEET THE VAMPS</h4>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">WILD HEART</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">LAST NIGHT</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">SOMEBODY TO YOU</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">CAN WE DANCE</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">GIRLS ON TV</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">RISK IT ALL</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">OH CECLIA(Breaking My Heart)</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">ANOTHER WORLD</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">MOVE MY WAY</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">SHOUT ABOUT IT</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">HIGH HOPES</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">DANGEREOUS</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">SHE WAS THE ONE</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">LOVESTRUCK</a></li>
+<li><a href="https://open.spotify.com/playlist/3o0rLxTQAp6JSy9WBujMKe">SMILE</a></li>
+</ul>
+</div>
+
+<div id="alb2">
+<ul id="a2">
+<H4>WAKE UP</H4>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">WAKE UP<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">REST YOUR LOVE<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">VOLCANO<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">MILLION WORDS<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">WINDMILLS<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">STOLEN MOMENTS<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">I FOUND A GIRL<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">BE WITH YOU<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">BURN<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">BOY WITHOUT A CAR<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">CHEATER<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">HELD BY ME<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">HALFWAY THERE<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">RUNAWAY<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">WORRY<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">COMING HOME<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">PEACE OF MIND<a></li>
+<li><a href="https://open.spotify.com/album/44qy89HXAh4e0ab35rlY2J">WRITTEN OFF<a></li>
+</ul>
+</div>
+
+<div id="alb3">
+<ul id="a3">
+<H4>NIGHT AND DAY(NIGHT EDITION)</H4>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">MIDDHLE OF THE NIGHT</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">ALL NIGHT</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">HANDS</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">SAME TO YOU</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">PAPER HEARTS</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">SHADES ON</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">IT'S A LIE</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">STAY</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">MY PLACE</a></li>
+<li><a href="https://open.spotify.com/album/69Pj3ce9XFZUi3XuQylLKf">SAD SONG</a></li>
+</ul>
+</div>
+
+<div id="alb4">
+<ul id="a4">
+<H4>NIGHT AND DAY(DAY EDITION)</H4>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">JUST MY TYPE</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">HAIR TOO LONG</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">TALK LATER</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">TOO GOOD TO BE TRUE</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">FOR YOU</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">WHAT YOUR FATHER SAYS</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">CHEAP WINE</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">PERSONAL</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">THIS IS NOT ON OUR SIDE</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">PICTURES OF US</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">MIDDLE OF THE NIGH</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">ALL NIGHT</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">HANDS</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">SAME TO YOU</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">PAPER HEARTS</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">SHADES ON</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">IT'S A LIE</a></li>
+<li><a href="https://open.spotify.com/album/0VKcOEVdDLf95KdHfBw9AR">STAY</a></li>
+</ul>
+</div>
+
+<div id="alb5">
+<ul id="a5">
+<h4>CHERRY BLOSSOM(yet to be launched)</h4>
+<li><a href="https://open.spotify.com/playlist/3Bp5dDlykk35ulrfD71LfT">MARRIED IN VEGAS</a></li>
+</ul>
+</div>
+</div>
+
+<section id="more">
+<h4>Listen More On <a href="https://open.spotify.com/artist/7gAppWoH7pcYmphCVTXkzs">Spotify <img src="spotify.jpg"></a></h4>
+<h4>For More Covers By The Vamps Visit : <a href="https://soundcloud.com/thevampsofficial">SoundCloud <img src="soundcloud.jpg"></a></h4>
+</section>
+
+<footer id="footer1"> </footer>
+
+</div>
+</body>
+</html>
